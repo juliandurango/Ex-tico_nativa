@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reptiles">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pasarIndice"
+        android:scrollIndicators="top|bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            android:background="@color/azul_claro"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginBottom="20sp"
+                android:translationX="40sp"
+                app:srcCompat="@drawable/reptil" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_marginBottom="10dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/lagartija"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Lagartija de Malpelo"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="221dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Suele alimentarse principalmente de hormigas y escarabajos, en ocasiones comen cangrejos, garrapatas, arañas e insectos como grillos, orugas y moscas. Como su nombre lo indica vive en la isla de Malpelo."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/lagarto_azul"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Lagarto azul de Gorgona"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="226dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Es un pequeño reptil que llama la atención de los investigadores por su brillante color azul. Su hábitat natural es la isla de Gorgona y no se conoce mucho sobre su alimentación."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="216dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/lagarto"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Lagarto punteado"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="217dp"
+                            android:layout_height="116dp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Se puede encontrar en la isla de Malpelo perteneciente al departamento del Valle del Cauca, se alimenta de insectos, gusanos, cangrejos y posiblemente de algunos pajaros pequeños."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/serpiente"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Serpiente sabanera"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="205dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Se alimenta principalmente de lombrices y artrópodos, es una especie no venenosa que viven en regiones frías como Boyacá y Cundinamarca."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:layout_marginBottom="40sp"
+                android:backgroundTint="@color/verde_oscuro"
+                android:fontFamily="@font/baloo"
+                android:onClick="pasarAnterior"
+                android:text="Volver"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:translationX="100sp"
+                app:cornerRadius="100sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

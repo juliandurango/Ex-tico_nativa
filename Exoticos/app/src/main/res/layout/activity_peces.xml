@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Peces">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="@color/azul_claro"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60sp"
+            android:layout_marginBottom="20sp"
+            android:translationX="40sp"
+            app:srcCompat="@drawable/peces" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="330dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="60sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="60sp"
+                    android:src="@drawable/bagre"
+                    app:civ_border_color="#99000000"
+                    app:civ_border_width="2dp" />
+
+                <LinearLayout
+                    android:layout_width="259dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="258dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:fontFamily="@font/baloo"
+                        android:gravity="start|top"
+                        android:text="Bagre rayado del Magdalena"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="221dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:fontFamily="@font/baloo"
+                        android:gravity="start|top"
+                        android:text="Vive en aguas dulces y en climas tropicales, específicamente en la cuenca del río Magdalena, el río Cauca y el río Nechi.El tamaño promedio de esta especie es de 57 cm de longitud, pudiendo llegar a medir 100 cm de longitud total. Se caracteriza por tener un color blanco en el vientre, gris en el dorso y un poco de negro en una especie de rayas que atraviesan su cuerpo."
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/verde_oscuro"
+            android:fontFamily="@font/baloo"
+            android:onClick="pasarInd"
+            android:text="Volver"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:translationX="100sp"
+            app:cornerRadius="100sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

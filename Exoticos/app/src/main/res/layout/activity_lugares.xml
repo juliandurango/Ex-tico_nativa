@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lugares">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollIndicators="top|bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            android:background="@color/azul_claro"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginBottom="20sp"
+                android:translationX="35sp"
+                app:srcCompat="@drawable/lugares" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/bosquedelaniebla"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="AICA Bosque de niebla San Antonio"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="243dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="A 20 minutos de Cali y allí se pueden hospedar en fincas, es gratuito la visita al lugar sin embargo, si deseas tener una caminata guiada se recomienda que preguntes por un guía de la zona. Se logra hacer avistamiento del ave tángara multicolor."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/gorgona"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Isla Gorgona"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="226dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Es una isla ubicada a 28 km al oeste de la costa del Pacífico colombiano. Junto con Malpelo, son las únicas islas de Colombia en el océano Pacífico. La entrada tiene un costo de 22.000 pesos para adultos y 13.500 pesos para niños."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="216dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/rogitama_biodiversidad"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Rogitama Biodiversidad"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="232dp"
+                            android:layout_height="116dp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Es una reserva natural con 29 hectáreas es un reservorio y un banco genético de biodiversidad, tiene como finalidad contribuir a la recuperación y conservación de los bosques, se encuentra en Boyacá."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/mountains"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Reserva Natural de las aves"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Reserva natural de aves, ubicado en la Sierra Nevada de Santa Marta, cuenta con un alto número de especies endémicas de aves y de anfibios amenazados de extinción. La estadía tiene un rango de precios entre 670.000- 1.175.000 pesos."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/islaescondida"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Reserva Isla Escondida"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="La reserva se sitúa al pie del monte entre los Andes y el Amazonas a una altitud de 850 m. Se ubica en el departamento de Putumayo, Colombia, no lejos de la frontera con Ecuador. Actualmente hay 7 habitaciones disponibles."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/serrania"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Serrania de las Quinchias"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Ubicada sobre el río Magdalena, entre los municipios de Puerto Boyacá y Otanche con una extensión es de 21.226 hectáreas, esta área posee el último relicto de selva húmeda tropical. Posee un número considerable de aves oferta hídrica."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/libelula"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Humedal Pantano La Libélula"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Se encuentra ubicado al sur de la capital, su nombre fue dado por la comunidad vecina pues las libélulas abundan en gran medida en varias temporadas del año. El Humedal de La Libélula se encuentra en el barrio Ontario."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/guaymaral"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Humedal Torca-Guaymaral"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Es un área protegida que hace parte de la estructura ecológica principal del Distrito Capital. El humedal hace parte de un ecosistema complejo de cuerpos de agua, su alrededor resguarda flora y fauna mediante procesos de adaptación."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/arvi"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Parque Arví"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Cuenta con 16.000 hectáreas, 1.760 de las cuales se encuentran en buen estado de bosques naturales, y está dotado de 54 kilómetros de senderos para facilitar el desplazamiento y las caminatas de los visitantes."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/botanico"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Jardin Botánico"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Es un jardín botánico de unas 13.2 hectáreas de extensión, ubicado en la ciudad colombiana de Medellín. Cuenta con un recinto para eventos llamado el Orquideorama, un lugar arquitectónico para la exposición de flores."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:layout_marginBottom="40sp"
+                android:backgroundTint="@color/verde_oscuro"
+                android:fontFamily="@font/baloo"
+                android:onClick="pasarMenu"
+                android:text="Volver"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:translationX="100sp"
+                app:cornerRadius="100sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

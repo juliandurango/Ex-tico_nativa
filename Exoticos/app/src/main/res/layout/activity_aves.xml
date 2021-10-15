@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aves">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pasarIndice"
+        android:scrollIndicators="top|bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            android:background="@color/azul_claro"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60sp"
+                android:layout_marginBottom="20sp"
+                android:translationX="40sp"
+                app:srcCompat="@drawable/aves" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/cacique"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Cacique candela"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="221dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Vive en la canopia y los bordes de bosques tropicales de montañas del oeste de Colombia. Se alimenta de insectos y arañas, también puede alimentarse de algunos frutos."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/chango"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Chango de montaña"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="226dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Habita la cordillera oriental de los Andes en Colombia, se alimenta especialmente de saltamontes, grillos, langostas y escarabajos."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="216dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/churrin"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Churrín del Magdalena"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="217dp"
+                            android:layout_height="116dp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Se alimenta de pequeños insectos y viven en los bosques a baja altura o sobre el suelo. Esta especie ha sido encontrada en el norte del departamento de Santander y en el departamento de Huila."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/colibri"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Colibrí florido"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="205dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Esta especie se alimenta de las flores del bosque, habita en los bosques húmedos y secos de la Sierran Nevada de Santa Marta."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/manglero"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Colibrí manglero"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Su hábitat es el litoral del Caribe en el norte de Colombia, además suele ser agresivo en términos de alimentación."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/mielero"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Mielero turquesa"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Su hábitat natural se conforma de bosque, plantaciones y arbolados, es una especie a la que le gustan mucho los frutos."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/paujil"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Paujil colombiano"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Esta ave vive en el bajo Cauca, la parte alta de los ríos San Jorge y Sinú y también la Serranía de Jacinto. A este animal le gustan los frutos, la lombriz de tierra y algunos insectos, además algunas ocasiones consume granos de arena."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/pinzon"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Pinzón cabeciamarillo"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Generalmente busca el alimento junto a otras especies de pájaros, habita en las cordilleras oriental y occidental de nuestro país."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/principe"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Príncipe de Arcabuco"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="216dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Esta ave habita los bosques húmedos en los departamentos de Santander, Boyacá y Cundinamarca. Es el animal emblemático del municipio de Arcabuco de allí su nombre."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/nevada"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Sierra Nevada Brush-finch"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Esta especie es endémica de la Sierra Nevada de Santa Marta, al norte de Colombia."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginBottom="20sp"
+                        android:src="@drawable/tangara"
+                        app:civ_border_color="#99000000"
+                        app:civ_border_width="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="259dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="258dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10sp"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Tángara multicolor"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textStyle="bold|italic" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="234dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/baloo"
+                            android:gravity="start|top"
+                            android:text="Es un ave que se destaca por sus colores variados en machos y hembras. Esta especie se alimenta de los frutos de los árboles e insectos como larvas y orugas. Habita los bosques de algunos departamentos."
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btnVolver"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:layout_marginBottom="40sp"
+                android:backgroundTint="@color/verde_oscuro"
+                android:fontFamily="@font/baloo"
+                android:onClick="pasarMenu"
+                android:text="Volver"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:translationX="100sp"
+                app:cornerRadius="100sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

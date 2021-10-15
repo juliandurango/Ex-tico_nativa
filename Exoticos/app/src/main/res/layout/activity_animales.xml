@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Animales">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="@color/azul_claro"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60sp"
+            android:layout_marginBottom="20sp"
+            android:translationX="35sp"
+            app:srcCompat="@drawable/indice" />
+
+        <Button
+            android:id="@+id/btnAnfibios"
+            android:layout_width="300sp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="6sp"
+            android:backgroundTint="@color/verde_oscuro"
+            android:fontFamily="@font/baloo"
+            android:onClick="pasarAnfibios"
+            android:text="Anfibios"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="35sp"
+            app:cornerRadius="100dp" />
+
+        <Button
+            android:id="@+id/btnAves"
+            android:layout_width="300sp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="6sp"
+            android:backgroundTint="@color/verde_oscuro"
+            android:fontFamily="@font/baloo"
+            android:onClick="pasarAves"
+            android:text="Aves"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="35sp"
+            app:cornerRadius="100dp" />
+
+        <Button
+            android:id="@+id/btnMamiferos"
+            android:layout_width="300sp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="6sp"
+            android:backgroundTint="@color/verde_oscuro"
+            android:fontFamily="@font/baloo"
+            android:onClick="pasarMamiferos"
+            android:text="Mamíferos"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="35sp"
+            app:cornerRadius="100dp" />
+
+        <Button
+            android:id="@+id/btnMariposas"
+            android:layout_width="300sp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="6sp"
+            android:backgroundTint="@color/verde_oscuro"
+            android:fontFamily="@font/baloo"
+            android:onClick="pasarMariposas"
+            android:text="Mariposas"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="35sp"
+            app:cornerRadius="100dp" />
+
+        <Button
+            android:id="@+id/btnPeces"
+            android:layout_width="300sp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="6sp"
+            android:backgroundTint="@color/verde_oscuro"
+            android:fontFamily="@font/baloo"
+            android:onClick="pasarPeces"
+            android:text="Peces"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="35sp"
+            app:cornerRadius="100dp" />
+
+        <Button
+            android:id="@+id/btnReptiles"
+            android:layout_width="300sp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="6sp"
+            android:backgroundTint="@color/verde_oscuro"
+            android:fontFamily="@font/baloo"
+            android:onClick="pasarReptiles"
+            android:text="Reptiles"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:translationX="35sp"
+            app:cornerRadius="100dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
